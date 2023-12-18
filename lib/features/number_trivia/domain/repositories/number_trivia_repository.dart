@@ -1,6 +1,5 @@
-import 'package:dartz/dartz.dart';
-import 'package:number_trivia/core/errors/failure_mdl.dart';
-import 'package:number_trivia/features/number_trivia/domain/entities/number_trivia_ent.dart';
+import 'package:number_trivia/core/core.dart';
+import 'package:number_trivia/features/number_trivia/domain/domain.dart';
 
 abstract class NumberTriviaRepository {
   Future<Either<FailureMdl, NumberTriviaEnt>> getConcreteNumberTrivia(
