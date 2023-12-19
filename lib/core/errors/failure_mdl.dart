@@ -13,3 +13,6 @@ abstract class FailureMdl extends Equatable {
   @override
   List<Object> get props => [properties];
 }
+
+class ServerFailure extends FailureMdl {}
+class CacheFailure extends FailureMdl {}

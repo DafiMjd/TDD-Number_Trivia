@@ -1,5 +1,6 @@
 export 'errors/index.dart';
 export 'use_cases/index.dart';
+export 'platform/index.dart';
 
 export 'package:dartz/dartz.dart';
 export 'package:dio/dio.dart';
