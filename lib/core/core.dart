@@ -7,3 +7,4 @@ export 'package:dio/dio.dart';
 export 'package:equatable/equatable.dart';
 export 'package:flutter_bloc/flutter_bloc.dart';
 export 'package:isar/isar.dart';
+export 'package:internet_connection_checker/internet_connection_checker.dart';

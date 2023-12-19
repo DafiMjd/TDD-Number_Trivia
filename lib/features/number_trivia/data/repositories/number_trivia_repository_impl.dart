@@ -17,6 +17,12 @@ class NumberTriviaRepositoryImpl implements NumberTriviaRepository {
   Future<Either<FailureMdl, NumberTriviaEnt>> getConcreteNumberTrivia(
     int number,
   ) async {
+    bool result = await InternetConnectionChecker().hasConnection;
+    if (result == true) {
+      print('YAY! Free cute dog pics!');
+    } else {
+      print('No internet :( Reason:');
+    }
     if (await networkInfo.isConnected) {
       try {
         final remoteTrivia =
