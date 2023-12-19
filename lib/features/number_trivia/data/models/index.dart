@@ -1,1 +1,1 @@
-export 'number_tirivia_mdl.dart';
+export 'number_trivia_mdl.dart';

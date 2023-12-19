@@ -4,7 +4,7 @@ class NumberTriviaEnt extends Equatable {
   final String text;
   final int number;
   final bool found;
-  
+
   const NumberTriviaEnt({
     this.text = '',
     this.number = 0,

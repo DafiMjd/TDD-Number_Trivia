@@ -1,6 +1,12 @@
+import 'package:number_trivia/core/core.dart';
 import 'package:number_trivia/features/number_trivia/domain/domain.dart';
 
+part 'number_trivia_mdl.g.dart';
+
+@Collection(ignore: {'props'})
 class NumberTriviaMdl extends NumberTriviaEnt {
+  final id = Isar.autoIncrement;
+
   const NumberTriviaMdl({
     required int number,
     required String text,

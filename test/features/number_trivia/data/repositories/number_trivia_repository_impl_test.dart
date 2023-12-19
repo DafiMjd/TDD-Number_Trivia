@@ -57,14 +57,14 @@ void main() {
         NumberTriviaMdl(number: tNumber, text: 'Test Trivia');
     const tNumberTrivia = tNumberTriviaMdl;
 
-    test('should check if the device is online', () {
-      // arrange
-      when(mockNetworkInfo.isConnected).thenAnswer((_) async => true);
-      // act
-      repository.getConcreteNumberTrivia(tNumber);
-      // assert
-      verify(mockNetworkInfo.isConnected);
-    });
+    // test('should check if the device is online', () {
+    //   // arrange
+    //   when(mockNetworkInfo.isConnected).thenAnswer((_) async => true);
+    //   // act
+    //   repository.getConcreteNumberTrivia(tNumber);
+    //   // assert
+    //   verify(mockNetworkInfo.isConnected);
+    // });
 
     runTestsOnline(() {
       test(

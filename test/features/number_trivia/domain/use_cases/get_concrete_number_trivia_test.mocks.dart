@@ -67,30 +67,29 @@ class MockNumberTriviaRepository extends _i1.Mock
       ) as _i4.Future<_i2.Either<_i2.FailureMdl, _i3.NumberTriviaEnt>>);
 
   @override
-  _i4.Future<
-      _i2.Either<_i2.FailureMdl,
-          _i3.NumberTriviaEnt>> getRandomNumberTrivia() => (super.noSuchMethod(
-        Invocation.method(
-          #getRandomNumberTrivia,
-          [],
-        ),
-        returnValue:
-            _i4.Future<_i2.Either<_i2.FailureMdl, _i3.NumberTriviaEnt>>.value(
+  _i4.Future<_i2.Either<_i2.FailureMdl, _i3.NumberTriviaEnt>>
+      getRandomNumberTrivia() => (super.noSuchMethod(
+            Invocation.method(
+              #getRandomNumberTrivia,
+              [],
+            ),
+            returnValue: _i4
+                .Future<_i2.Either<_i2.FailureMdl, _i3.NumberTriviaEnt>>.value(
                 _FakeEither_0<_i2.FailureMdl, _i3.NumberTriviaEnt>(
-          this,
-          Invocation.method(
-            #getRandomNumberTrivia,
-            [],
-          ),
-        )),
-        returnValueForMissingStub:
-            _i4.Future<_i2.Either<_i2.FailureMdl, _i3.NumberTriviaEnt>>.value(
+              this,
+              Invocation.method(
+                #getRandomNumberTrivia,
+                [],
+              ),
+            )),
+            returnValueForMissingStub: _i4
+                .Future<_i2.Either<_i2.FailureMdl, _i3.NumberTriviaEnt>>.value(
                 _FakeEither_0<_i2.FailureMdl, _i3.NumberTriviaEnt>(
-          this,
-          Invocation.method(
-            #getRandomNumberTrivia,
-            [],
-          ),
-        )),
-      ) as _i4.Future<_i2.Either<_i2.FailureMdl, _i3.NumberTriviaEnt>>);
+              this,
+              Invocation.method(
+                #getRandomNumberTrivia,
+                [],
+              ),
+            )),
+          ) as _i4.Future<_i2.Either<_i2.FailureMdl, _i3.NumberTriviaEnt>>);
 }
