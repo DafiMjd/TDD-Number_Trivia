@@ -4,8 +4,6 @@ import 'package:number_trivia/features/number_trivia/presentation/cubits/number_
 
 import 'core/core.dart';
 
-final sl = GetIt.instance;
-
 Future<void> init() async {
   // Features - Number Trivia
   // Cubits
